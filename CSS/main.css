@@ -67,15 +67,12 @@ body {
 
 /* nav styling */
 
-ul li {
+.nav {
+  margin: 0 auto;
+  text-align: center;
   display: inline;
   float: right;
   padding: 1px;
-  text-align: center;
-}
-
-.nav {
-  margin: 0 auto;
   text-align: center;
 }
 
