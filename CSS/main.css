@@ -92,10 +92,6 @@ ul li:nth-child(2) {
 
 /* article styling */
 
-.article {
-  margin-top: 1em;
-}
-
 .recipeHeader {
   color: #252525;
   font-family: Oswald;
