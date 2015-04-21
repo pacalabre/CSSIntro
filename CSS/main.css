@@ -36,10 +36,16 @@ body {
   width: 900px;
 }
 
-/* set top margin of containers */
+/* reusable styling */
 
 .containerTopMargin {
   margin-top: 3em;
+}
+
+.borderTop {
+  border-width: 13px 0 0 0;
+  border-image: url("http://i.imgur.com/DtVTMkX.png") 13 0 0 0 stretch;
+  padding: 2em;
 }
 
 /* logo styling */
@@ -78,13 +84,6 @@ body {
 
 ul li:nth-child(2) {
   padding-left: 10px;
-}
-
-.border {
-  margin-top: 3em;
-  height: 14px;
-  background-image: url("http://i.imgur.com/DtVTMkX.png");
-  clear: both;
 }
 
 /* article styling */
@@ -133,11 +132,8 @@ p {
 
 /* about the author */
 
-.borderTop {
-  border-width: 13px 0 0 0;
-  border-image: url("http://i.imgur.com/DtVTMkX.png") 13 0 0 0 stretch;
-  padding: 2em;
-
+.mainTop {
+  clear: both;
 }
 
 .vanessaPic {
